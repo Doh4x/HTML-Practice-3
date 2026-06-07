@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="siteHeader">
+        <div class="siteHeaderInner">
+            <span class="siteTitle">Лос Полос Херманос</span>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="sectionTitle">Калькулятор скидки</h2>
+
+        <div class="form">
+            <div class="formGroup">
+                <label class="formLabel" for="price">Цена</label>
+                <input class="formInput" type="number" id="price" placeholder="2000">
+            </div>
+
+            <div class="formGroup">
+                <label class="formLabel" for="discount">Скидка (%)</label>
+                <input class="formInput" type="number" id="discount" placeholder="10">
+            </div>
+
+            <div class="formButtons">
+                <button class="buttonPrimary" id="calcBtn">Посчитать</button>
+            </div>
+        </div>
+
+        <div class="result" id="result"></div>
+    </main>
+
+    <footer>
+        <p>Знаешь море? Я его волную.</p>
+        <p>© Джейсон Стетхем</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

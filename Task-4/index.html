@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="siteHeader">
+        <div class="siteHeaderInner">
+            <span class="siteTitle">Лос Полос Херманос</span>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="sectionTitle">Регистрация</h2>
+
+        <form class="form" id="regForm" action="#" method="post">
+            <div class="formGroup">
+                <label class="formLabel" for="name">Имя <span class="required">*</span></label>
+                <input class="formInput" type="text" id="name" placeholder="Гаврила">
+            </div>
+
+            <div class="formGroup">
+                <label class="formLabel" for="email">Email <span class="required">*</span></label>
+                <input class="formInput" type="email" id="email" placeholder="fring@lospollos.com">
+            </div>
+
+            <div class="formGroup">
+                <label class="formLabel" for="password">Пароль <span class="required">*</span></label>
+                <input class="formInput" type="password" id="password" placeholder="Минимум 8 символов">
+            </div>
+
+            <div class="formButtons">
+                <button type="button" class="buttonPrimary" id="checkBtn">Проверить</button>
+            </div>
+        </form>
+
+        <div class="result" id="result"></div>
+    </main>
+
+    <footer>
+        <p>Знаешь море? Я его волную.</p>
+        <p>© Джейсон Стетхем</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
