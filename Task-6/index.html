@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="siteHeader">
+        <div class="siteHeaderInner">
+            <span class="siteTitle">Лос Полос Херманос</span>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="sectionTitle">Модальное окно</h2>
+
+        <div class="formButtons">
+            <button class="buttonPrimary" id="openBtn">Открыть окно</button>
+        </div>
+    </main>
+
+    <div class="modalOverlay is-hidden" id="overlay">
+        <div class="modal" id="modal">
+            <h3>Привет из модального окна</h3>
+            <p>Это окно открывается и закрывается через классы.</p>
+            <button class="buttonSecondary" id="closeBtn">Закрыть</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Знаешь море? Я его волную.</p>
+        <p>© Джейсон Стетхем</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
