@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="siteHeader">
+        <div class="siteHeaderInner">
+            <span class="siteTitle">Лос Полос Херманос</span>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="sectionTitle">Каталог</h2>
+
+        <div class="form">
+            <div class="formGroup">
+                <label class="formLabel" for="search">Поиск</label>
+                <input class="formInput" type="search" id="search" placeholder="Название">
+            </div>
+
+            <div class="formGroup">
+                <label class="formLabel" for="category">Категория</label>
+                <select class="formSelect" id="category">
+                    <option value="">Все категории</option>
+                    <option value="Курица">Курица</option>
+                    <option value="Гарниры">Гарниры</option>
+                    <option value="Наборы">Наборы</option>
+                </select>
+            </div>
+
+            <div class="formGroup">
+                <label class="formLabel" for="sort">Сортировка</label>
+                <select class="formSelect" id="sort">
+                    <option value="asc">По цене: дешевле</option>
+                    <option value="desc">По цене: дороже</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="cardGrid" id="catalog"></div>
+    </main>
+
+    <footer>
+        <p>Знаешь море? Я его волную.</p>
+        <p>© Джейсон Стетхем</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
